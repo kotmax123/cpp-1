@@ -8,6 +8,7 @@ int main()
 	q[1].value = 5;
 	std::cout << q[1].value << std::endl;
 
+	cleanQueue(q);
 	return 0;
 }
 
@@ -19,7 +20,8 @@ void initQueue(Queue* q, unsigned int size)
 }
 void cleanQueue(Queue* q)
 {
-	
+	delete[] q;
+	q = nullptr;
 }
 
 void enqueue(Queue* q, unsigned int newValue)
