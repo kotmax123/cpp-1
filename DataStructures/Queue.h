@@ -6,7 +6,6 @@
 typedef struct Queue
 {
 	unsigned int value;
-	Queue* next;
 	
 } Queue;
 
