@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Downloads\Part1Tester.cpp" />
     <ClCompile Include="Queue.cpp" />
   </ItemGroup>
   <ItemGroup>
